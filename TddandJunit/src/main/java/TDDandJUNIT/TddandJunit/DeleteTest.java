@@ -8,13 +8,7 @@ import org.junit.jupiter.api.Test;
 class DeleteTest {
 
 	DeleteChar deleteObject = new DeleteChar();
-/*
- 1 case : ABCD => BCD
- 2 case : AACD => CD
- 3 Case : BACD => BCD
- 4 Case : BBAA => BBAA
- 5 Case : AABAA => BAA
- */
+
 	@Test
 	void testF1() {
 		assertEquals("BCD",deleteObject.deleteFirstAs("ABCD"));
